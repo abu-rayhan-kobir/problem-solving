@@ -31,7 +31,7 @@ int main () {
 void totalSubArray (std :: vector <int>& numbers) {
   for (int start = 0; start < numbers.size (); start++) {
     for (int end = start; end < numbers.size (); end++) {
-      for (int count = 0; count <= end; count++) {
+      for (int count = start; count <= end; count++) {
         std :: cout << numbers.at (count);
       }
       std :: cout << " ";
