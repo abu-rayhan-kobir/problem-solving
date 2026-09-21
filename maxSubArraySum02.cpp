@@ -14,7 +14,7 @@ int maxValue (int number1, int number2) {
 int maxSubArraySum (std :: vector <int>& numbers);
 
 int main () {
-  std :: vector <int> numbers = {1, 2, 3, 4};
+  std :: vector <int> numbers = {1, 2, 9, -4, 9, -3};
   int maxSum = maxSubArraySum (numbers);
   std :: cout << "Maximum sum: " << maxSum << std :: endl;
   return 0;
